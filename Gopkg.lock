@@ -649,6 +649,14 @@
   version = "v0.0.1"
 
 [[projects]]
+  digest = "1:2e7f19283659dcf8db9515a056fdea8be9f3aed2417a7ab33857b998d3c5bef2"
+  name = "github.com/openshift/origin"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "b4261e07eda19d9c42aa9d1c748c34f8cba09168"
+  version = "v4.1.0"
+
+[[projects]]
   digest = "1:dc56e7178a82f8e84960ed9efa7d4ebd0a6d7864894bfc46f8a35ee5eae7153a"
   name = "github.com/pquerna/otp"
   packages = [
@@ -1088,6 +1096,7 @@
     "github.com/jstemmer/go-junit-report/parser",
     "github.com/leekchan/accounting",
     "github.com/magiconair/properties/assert",
+    "github.com/openshift/origin",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
