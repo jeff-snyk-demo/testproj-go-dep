@@ -17,6 +17,7 @@ import (
 	"github.com/jstemmer/go-junit-report/parser"
 	"github.com/magiconair/properties/assert"
 	"github.com/docker/docker"
+	"github.com/gogits/gogs"
 )
 
 func main() {
