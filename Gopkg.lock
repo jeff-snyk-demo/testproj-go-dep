@@ -26,6 +26,27 @@
   version = "v1.19.33"
 
 [[projects]]
+  digest = "1:a358f2e69c04165d574466da14db4c924739ebef46717bfb9c6e3e99b302a963"
+  name = "github.com/docker/docker"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "5d25f3232c38d6a7ed31860948058b8ec1d95656"
+  version = "v0.5.3"
+
+[[projects]]
+  digest = "1:53d71600c18818ef83b9de262eee93370e22b87cf4731a1352382e3620b61c73"
+  name = "github.com/dotcloud/docker"
+  packages = [
+    "auth",
+    "registry",
+    "term",
+    "utils",
+  ]
+  pruneopts = "UT"
+  revision = "28b162eeb48002e1824a1b43bbc864e93af8e26b"
+  version = "v0.7.2"
+
+[[projects]]
   digest = "1:2cd7915ab26ede7d95b8749e6b1f933f1c6d5398030684e6505940a10f31cfda"
   name = "github.com/ghodss/yaml"
   packages = ["."]
@@ -81,6 +102,14 @@
   version = "v2.0.4"
 
 [[projects]]
+  digest = "1:3af6be4fee7c08f81f13d36f04ffb63ad4b6b5aaba12cce96095c7c2863d4912"
+  name = "github.com/gorilla/mux"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "ed099d42384823742bba0bf9a72b53b55c9e2e38"
+  version = "v1.7.2"
+
+[[projects]]
   digest = "1:3856234419913d7da5247bb8782b3fb10b412d719bd1a2609c5ba7c24e481cd8"
   name = "github.com/gruntwork-io/gruntwork-cli"
   packages = [
@@ -120,6 +149,14 @@
   pruneopts = "UT"
   revision = "f55edac94c9bbba5d6182a4be46d86a2c9b5b50e"
   version = "v1.0.2"
+
+[[projects]]
+  digest = "1:47dc4f6ee8a7dda99b516b56cb7fcc4f53ca94756263bdcea55c918a60126062"
+  name = "github.com/kr/pty"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "521317be5ebc228a0f0ede099fa2a0b5ece22e49"
+  version = "v1.1.4"
 
 [[projects]]
   digest = "1:25e2e1167476b728d2b1fd5d8be3dde6de21ad7469a89aab0353d6dce9c8e998"
@@ -361,6 +398,7 @@
   input-imports = [
     "cloud.google.com/go/storage",
     "github.com/aws/aws-sdk-go",
+    "github.com/docker/docker",
     "github.com/ghodss/yaml",
     "github.com/go-sql-driver/mysql",
     "github.com/google/uuid",
